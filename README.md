@@ -38,3 +38,10 @@ Next Options
 			  # git commit -m "updated ReadMe.md for repo steps"   - committed message had to mention
 			  # git push      - pushing code to your branch(main)
 4. Push is completed successfully
+
+5. create pull request steps
+    navigate to your repo <technosanta>
+	click on compare and pull request button
+	give description and header
+	select assignee for review
+	If reviewer has provided comment resolve from local system and pushed code branch
