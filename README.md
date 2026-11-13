@@ -20,3 +20,21 @@ prequisites:
 9. provde command - git clone <copied URL above> (ex: https://github.com/technosanta/Python-selenium10.git)
 10. Clone Done wit 100% message successfully
 
+Next Options
+
+1. Modified ReadMe.md file
+2. check status of git 
+    # command - 'git status'
+			On branch python_repo
+			Your branch is up to date with 'origin/python_repo'.
+			Changes not staged for commit:
+			  (use "git add <file>..." to update what will be committed)
+			  (use "git restore <file>..." to discard changes in working directory)
+					# modified:   README.md
+			no changes added to commit (use "git add" and/or "git commit -a")
+3. Want add code into repo whatever modified file - command to povide 3 steps for pushing code into repo
+    commands :
+	          # git add .   - adding all changed file
+			  # git commit -m "updated ReadMe.md for repo steps"   - committed message had to mention
+			  # git push      - pushing code to your branch(main)
+4. Push is completed successfully
