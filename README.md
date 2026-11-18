@@ -44,4 +44,7 @@ Next Options
 	click on compare and pull request button
 	give description and header
 	select assignee for review
-	If reviewer has provided comment resolve from local system and pushed code branch
+	If reviewer has provided comment resolve from local system and pushed code branch.
+        successfully cloned the project.
+
+
