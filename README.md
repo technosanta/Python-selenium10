@@ -1,5 +1,22 @@
 # Python-selenium10
 Automation tetscases
+
+## Install dependencies and generate an HTML report
+
+From the project directory, install the dependencies:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+Run the test suite and write a self-contained HTML report to `report.html`:
+
+```powershell
+python -m pytest --html=report.html --self-contained-html
+```
+
+Open `report.html` in a browser to view the results.
+
 How to push code into repo
 prequisites:
 1. Install git respective OS(latest)
