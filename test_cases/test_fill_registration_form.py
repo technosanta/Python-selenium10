@@ -5,10 +5,13 @@ import pytest
 from pages.test_registration_form import RegistrationForm
 
 from fixtures.browser_setup import driver
+
+@pytest.mark.sanity
 @pytest.mark.parametrize("first_name,email,phone", [
     ("John", "john@example.com", "1234567890"),
     ("Mark", "mark@example.com", "0987654321")
 ])
+@pytest.mark.regression
 def test_fill_registration_form(driver, first_name, email, phone):
 
 
